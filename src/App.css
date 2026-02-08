@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+/*
+	Responsive container utility
+	- Centers content horizontally (auto margins) and optionally vertically (.full-height)
+	- Uses modern CSS functions `min()` and `clamp()` for robust responsive sizing
+	- Adds sensible mobile paddings and a max-width for readable measure
+*/
+
+:root {
+  --container-max-width: 1100px;
+  --container-padding-min: 1rem;
+  --container-padding-preferred: 2.5vw;
+  --container-padding-max: 3rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* make box-sizing predictable for everything */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
+  width: 100%;
+  max-width: min(var(--container-max-width), 94%);
+  margin-left: auto;
+  margin-right: auto;
+  padding: clamp(
+    var(--container-padding-min),
+    var(--container-padding-preferred),
+    var(--container-padding-max)
+  );
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+/* utility modifier to center vertically in the viewport */
+.container.full-height {
+  min-height: 100vh;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* small helper for sensible text measure inside container */
+.container .content {
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* reduced-motion respect */
+@media (prefers-reduced-motion: reduce) {
+  .container * {
+    transition: none !important;
+    animation: none !important;
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+
+.sdn-admin-menu-global__menu-top {
+  opacity: 0;
 }

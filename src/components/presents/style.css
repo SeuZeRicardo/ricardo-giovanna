@@ -1,0 +1,24 @@
+.gift-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4rem;
+
+  button {
+    padding: 10px 20px;
+    border: 1px solid var(--primary-color, #007bff);
+    border-radius: 6px;
+    border-color: var(--primary-color, #007bff);
+    color: #007bff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+
+    &:hover {
+      background: var(--primary-color-hover, #0056b3);
+      border-color: var(--primary-color, #0056b3);
+      color: white;
+    }
+  }
+}

@@ -1,22 +1,62 @@
-.loader {
-  height: 100vh;
-  width: 100vw;
-  background-color: rgba(0, 255, 0, 0.3);
+:root {
+  --loader-text: #222;
+  --track: #efefef;
+  --bar-from: #4caf50;
+  --bar-to: #8bc34a;
+}
 
-  .box {
-    width: 75px;
-    height: 75px;
-    border-radius: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: var(--green);
-    font-weight: 600;
-    color: var(--dark);
-    line-height: 1.2;
-    will-change: transform;
+.loader-bg {
+  position: fixed;
+  inset: 0;
+  background-color: var(--background-color);
+  z-index: 9999;
+  overflow: hidden;
+}
 
-    background-color: pink;
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader-wrapper {
+  width: min(640px, 90%);
+  padding: 20px;
+  text-align: center;
+}
+
+.loader-bar-wrapper {
+  width: 100%;
+  height: 10px;
+  background-color: #eee;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.loader-bar {
+  height: 100%;
+  background: linear-gradient(90deg, #710c04, #e3242b);
+  transition: width 120ms linear;
+}
+
+.loader-text {
+  margin-top: 12px;
+  font-weight: 600;
+  color: var(--loader-text);
+}
+
+#jorge {
+  max-width: 260px;
+  height: auto;
+  padding-bottom: 24px;
+}
+
+#gradient {
+  height: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .loader-bar {
+    transition: none;
   }
 }

@@ -1,36 +1,25 @@
 import { useRef } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
+import { SplitText } from "gsap/SplitText";
+import { ScrollSmoother } from "gsap/ScrollSmoother";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 import "./style.css";
 import placeholder from "../../assets/images/placeholder.jpg";
+
+gsap.registerPlugin(SplitText, ScrollSmoother, ScrollTrigger);
 
 const Intro = () => {
   const container = useRef(null);
 
   useGSAP(
     () => {
-      const el = container.current;
-      if (!el) return;
+      const SplitTextInstance = new SplitText(".principal", {
+        type: "chars",
+      });
 
-      const h1 = el.querySelector("h1");
-      if (!h1) return;
-
-      const original = h1.textContent;
-
-      // split into spans for each character
-      h1.innerHTML = Array.from(original)
-        .map((ch) =>
-          ch === " "
-            ? '<span class="char">&nbsp;</span>'
-            : `<span class="char">${ch}</span>`,
-        )
-        .join("");
-
-      const chars = el.querySelectorAll(".char");
-
-      gsap.set(h1, { opacity: 1 });
-      gsap.from(chars, {
+      gsap.from(SplitTextInstance.chars, {
         y: 20,
         autoAlpha: 0,
         stagger: 0.05,
@@ -40,11 +29,6 @@ const Intro = () => {
       });
 
       gsap.from("img", { autoAlpha: 0, duration: 1, delay: 2.5 });
-
-      return () => {
-        // revert to original text when scope is reverted
-        h1.textContent = original;
-      };
     },
     { scope: container },
   );
@@ -56,7 +40,7 @@ const Intro = () => {
           As Familias Carvalho Motta e Villefort <br />
           convidam para o casamento de
         </p>
-        <h1>Ricardo & Giovanna</h1>
+        <h1 className="principal">Ricardo & Giovanna</h1>
       </div>
       <img
         className="intro-image"

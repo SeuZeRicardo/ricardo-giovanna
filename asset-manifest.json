@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ricardo-giovanna/static/css/main.956bc091.css",
-    "main.js": "/ricardo-giovanna/static/js/main.8596e4ac.js",
+    "main.css": "/ricardo-giovanna/static/css/main.6190b4f1.css",
+    "main.js": "/ricardo-giovanna/static/js/main.e2dd0e53.js",
     "static/js/453.ed554eb5.chunk.js": "/ricardo-giovanna/static/js/453.ed554eb5.chunk.js",
     "static/media/placeholder.jpg": "/ricardo-giovanna/static/media/placeholder.cbac12a656089d475fe8.jpg",
     "index.html": "/ricardo-giovanna/index.html",
-    "main.956bc091.css.map": "/ricardo-giovanna/static/css/main.956bc091.css.map",
-    "main.8596e4ac.js.map": "/ricardo-giovanna/static/js/main.8596e4ac.js.map",
+    "main.6190b4f1.css.map": "/ricardo-giovanna/static/css/main.6190b4f1.css.map",
+    "main.e2dd0e53.js.map": "/ricardo-giovanna/static/js/main.e2dd0e53.js.map",
     "453.ed554eb5.chunk.js.map": "/ricardo-giovanna/static/js/453.ed554eb5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.956bc091.css",
-    "static/js/main.8596e4ac.js"
+    "static/css/main.6190b4f1.css",
+    "static/js/main.e2dd0e53.js"
   ]
 }

@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Geometos Rounded";
+  src:
+    url("./fonts/GeometosRounded.woff2") format("woff2"),
+    url("./fonts/GeometosRounded.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src:
+    url("./fonts/Gotham-Light.woff2") format("woff2"),
+    url("./fonts/Gotham-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gotham Book";
+  src:
+    url("./fonts/Gotham-Book.woff2") format("woff2"),
+    url("./fonts/Gotham-Book.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src:
+    url("./fonts/Gotham-Medium.woff2") format("woff2"),
+    url("./fonts/Gotham-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}

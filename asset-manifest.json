@@ -1,16 +1,23 @@
 {
   "files": {
-    "main.css": "/ricardo-giovanna/static/css/main.6190b4f1.css",
-    "main.js": "/ricardo-giovanna/static/js/main.e2dd0e53.js",
+    "main.css": "/ricardo-giovanna/static/css/main.f89a64a1.css",
+    "main.js": "/ricardo-giovanna/static/js/main.5f865905.js",
     "static/js/453.ed554eb5.chunk.js": "/ricardo-giovanna/static/js/453.ed554eb5.chunk.js",
-    "static/media/placeholder.jpg": "/ricardo-giovanna/static/media/placeholder.cbac12a656089d475fe8.jpg",
+    "static/media/Gotham-Medium.woff": "/ricardo-giovanna/static/media/Gotham-Medium.c36afaedabdc0fa301cd.woff",
+    "static/media/Gotham-Book.woff": "/ricardo-giovanna/static/media/Gotham-Book.dcec402280c508bc1a46.woff",
+    "static/media/Gotham-Light.woff": "/ricardo-giovanna/static/media/Gotham-Light.e8573521d275d951d59d.woff",
+    "static/media/GeometosRounded.woff": "/ricardo-giovanna/static/media/GeometosRounded.fdc33c51a73b5fa0d826.woff",
+    "static/media/Gotham-Book.woff2": "/ricardo-giovanna/static/media/Gotham-Book.5d0b393aaae195243f6c.woff2",
+    "static/media/Gotham-Medium.woff2": "/ricardo-giovanna/static/media/Gotham-Medium.bd05cdd0368c407d4574.woff2",
+    "static/media/Gotham-Light.woff2": "/ricardo-giovanna/static/media/Gotham-Light.5372cb6ac4d0998dd12f.woff2",
+    "static/media/GeometosRounded.woff2": "/ricardo-giovanna/static/media/GeometosRounded.ae7b7518086cee0669ee.woff2",
     "index.html": "/ricardo-giovanna/index.html",
-    "main.6190b4f1.css.map": "/ricardo-giovanna/static/css/main.6190b4f1.css.map",
-    "main.e2dd0e53.js.map": "/ricardo-giovanna/static/js/main.e2dd0e53.js.map",
+    "main.f89a64a1.css.map": "/ricardo-giovanna/static/css/main.f89a64a1.css.map",
+    "main.5f865905.js.map": "/ricardo-giovanna/static/js/main.5f865905.js.map",
     "453.ed554eb5.chunk.js.map": "/ricardo-giovanna/static/js/453.ed554eb5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6190b4f1.css",
-    "static/js/main.e2dd0e53.js"
+    "static/css/main.f89a64a1.css",
+    "static/js/main.5f865905.js"
   ]
 }

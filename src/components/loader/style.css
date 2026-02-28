@@ -35,7 +35,7 @@
 
 .loader-bar {
   height: 100%;
-  background: linear-gradient(90deg, #710c04, #e3242b);
+  background: linear-gradient(90deg, #921b54, #e40fab);
   transition: width 120ms linear;
 }
 
@@ -59,4 +59,15 @@
   .loader-bar {
     transition: none;
   }
+}
+
+/* SVG Colors */
+
+svg {
+  max-width: 290px;
+  margin-bottom: 2.5rem;
+}
+
+svg path {
+  stroke-width: 1px;
 }

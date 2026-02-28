@@ -5,13 +5,15 @@ import "./App.css";
 export default function App() {
   return (
     <div className="app">
-      <Loader />
-      <>
-        <Intro />
-        <Countdown />
-        <Cerimony />
-        <Presents />
-      </>
+      {isLoading && <Loader setIsLoading={setIsLoading} />}
+      {!isLoading && (
+        <>
+          <Intro />
+          <Countdown />
+          <Cerimony />
+          <Presents />
+        </>
+      )}
     </div>
   );
 }

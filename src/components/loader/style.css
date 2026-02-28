@@ -63,11 +63,11 @@
 
 /* SVG Colors */
 
-svg {
+#bracelets {
   max-width: 290px;
   margin-bottom: 2.5rem;
 }
 
-svg path {
+#bracelets path {
   stroke-width: 1px;
 }

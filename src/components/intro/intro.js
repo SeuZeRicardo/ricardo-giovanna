@@ -13,20 +13,16 @@ gsap.registerPlugin(SplitText, DrawSVGPlugin, ScrollSmoother, ScrollTrigger);
 const Intro = () => {
   const container = useRef(null);
 
+  const scrollToBottom = () => {
+    // scroll the whole page to the bottom smoothly
+    window.scrollTo({
+      top: container.current.scrollHeight,
+      behavior: "smooth",
+    });
+  };
+
   useGSAP(
     () => {
-      const textInstance = new SplitText(".text", {
-        type: "lines",
-      });
-
-      gsap.from(textInstance.lines, {
-        y: 20,
-        autoAlpha: 0,
-        stagger: 0.05,
-        duration: 0.6,
-        ease: "power1.out",
-      });
-
       let letters = gsap.utils.toArray("#title path");
 
       gsap.set(letters, {
@@ -37,13 +33,27 @@ const Intro = () => {
       });
 
       gsap.to(letters, {
-        delay: 0.6,
+        delay: 0.3,
         drawSVG: "100%",
         duration: 0.8,
         autoAlpha: 1,
         ease: "power1.inOut",
         stagger: 0.1,
         transformOrigin: "50% 50%",
+      });
+
+      gsap.set(".scroll-bottom", {
+        autoAlpha: 0,
+        y: 60,
+      });
+
+      gsap.to(".scroll-bottom", {
+        ease: "power1.inOut",
+        stagger: 0.1,
+        y: 0,
+        autoAlpha: 1,
+        duration: 0.3,
+        delay: 1.2,
       });
     },
     { scope: container },
@@ -52,10 +62,6 @@ const Intro = () => {
   return (
     <div className="intro" ref={container}>
       <div className="container">
-        <h4 className="text">
-          As Familias Villefort e Carvalho Motta <br />
-          convidam para o casamento de
-        </h4>
         <svg
           id="title"
           viewBox="0 0 800 430"
@@ -553,6 +559,9 @@ const Intro = () => {
             </g>
           </g>
         </svg>
+      </div>
+      <div className="scroll-bottom" onClick={scrollToBottom}>
+        <span>↓</span>
       </div>
     </div>
   );

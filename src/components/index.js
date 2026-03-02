@@ -3,3 +3,7 @@ export * from "./intro";
 export * from "./countdown";
 export * from "./cerimony";
 export * from "./presents";
+export * from "./transport";
+export * from "./tips";
+export * from "./title";
+export * from "./footer";

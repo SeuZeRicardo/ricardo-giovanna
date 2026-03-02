@@ -26,12 +26,14 @@
   --lh-normal: 1.5; /* Body */
   --lh-loose: 1.8; /* Long-form reading */
 
-  --text-color: #222;
+  --text-color: #454545;
   --container-max-width: 1080px;
   --container-padding-min: 1rem;
   --container-padding-preferred: 2.5vw;
   --container-padding-max: 3rem;
   --background-color: #f5f2ed;
+
+  --svg-side-width: 240px;
 }
 
 *,
@@ -64,6 +66,7 @@ h1 {
   font-size: var(--text-xxl);
   line-height: var(--lh-tight);
   font-family: var(--font-family-title);
+  color: var(--text-color);
   font-weight: 800;
   margin-bottom: 0.5em;
 }
@@ -72,6 +75,7 @@ h2 {
   font-size: var(--text-xl);
   line-height: var(--lh-tight);
   font-family: var(--font-family-title);
+  color: var(--text-color);
   font-weight: 700;
   margin-bottom: 0.5em;
 }
@@ -80,6 +84,7 @@ h3 {
   font-size: var(--text-lg);
   line-height: var(--lh-tight);
   font-family: var(--font-family-title);
+  color: var(--text-color);
   font-weight: 600;
   margin-bottom: 0.5em;
 }
@@ -88,11 +93,13 @@ h4 {
   font-size: var(--text-md);
   line-height: var(--lh-tight);
   font-family: var(--font-family-title);
+  color: var(--text-color);
   font-weight: 600;
 }
 
 /* Body Text & Utility */
 p {
+  color: var(--text-color);
   margin-bottom: 1.5rem;
   max-width: 65ch; /* Optimized line length for readability */
 }
@@ -112,4 +119,22 @@ small,
 code {
   font-family:
     source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+button {
+  padding: 10px 20px;
+  border: 1px solid var(--text-color);
+  border-radius: 3rem;
+  border-color: var(--text-color);
+  background-color: var(--text-color);
+  color: var(--background-color);
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+
+  &:hover {
+    background-color: var(--background-color);
+    border-color: var(--text-color);
+    color: var(--text-color);
+  }
 }

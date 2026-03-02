@@ -43,3 +43,21 @@
 .sdn-admin-menu-global__menu-top {
   opacity: 0;
 }
+.animation-section {
+  position: relative;
+  z-index: 3;
+}
+
+.icons--side {
+  position: fixed;
+  top: calc(50% - (var(--svg-side-width) / 2));
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+}
+
+.icons--side svg {
+  max-width: var(--svg-side-width);
+}

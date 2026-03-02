@@ -27,6 +27,15 @@
 */
 
 /*!
+ * MorphSVGPlugin 3.14.2
+ * https://gsap.com
+ *
+ * @license Copyright 2008-2025, GreenSock. All rights reserved.
+ * Subject to the terms at https://gsap.com/standard-license
+ * @author: Jack Doyle, jack@greensock.com
+*/
+
+/*!
  * Observer 3.14.2
  * https://gsap.com
  *
@@ -60,6 +69,15 @@
  * @license Copyright 2025, GreenSock. All rights reserved. Subject to the terms at https://gsap.com/standard-license.
  * @author: Jack Doyle
  */
+
+/*!
+ * paths 3.14.2
+ * https://gsap.com
+ *
+ * Copyright 2008-2025, GreenSock. All rights reserved.
+ * Subject to the terms at https://gsap.com/standard-license
+ * @author: Jack Doyle, jack@greensock.com
+*/
 
 /**
  * @license React

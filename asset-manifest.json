@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ricardo-giovanna/static/css/main.8f564d6e.css",
-    "main.js": "/ricardo-giovanna/static/js/main.2af7fa87.js",
+    "main.css": "/ricardo-giovanna/static/css/main.cf794a6f.css",
+    "main.js": "/ricardo-giovanna/static/js/main.34824cbf.js",
     "static/js/453.ed554eb5.chunk.js": "/ricardo-giovanna/static/js/453.ed554eb5.chunk.js",
     "static/media/Gotham-Medium.woff": "/ricardo-giovanna/static/media/Gotham-Medium.c36afaedabdc0fa301cd.woff",
     "static/media/Gotham-Book.woff": "/ricardo-giovanna/static/media/Gotham-Book.dcec402280c508bc1a46.woff",
@@ -12,12 +12,12 @@
     "static/media/Gotham-Light.woff2": "/ricardo-giovanna/static/media/Gotham-Light.5372cb6ac4d0998dd12f.woff2",
     "static/media/GeometosRounded.woff2": "/ricardo-giovanna/static/media/GeometosRounded.ae7b7518086cee0669ee.woff2",
     "index.html": "/ricardo-giovanna/index.html",
-    "main.8f564d6e.css.map": "/ricardo-giovanna/static/css/main.8f564d6e.css.map",
-    "main.2af7fa87.js.map": "/ricardo-giovanna/static/js/main.2af7fa87.js.map",
+    "main.cf794a6f.css.map": "/ricardo-giovanna/static/css/main.cf794a6f.css.map",
+    "main.34824cbf.js.map": "/ricardo-giovanna/static/js/main.34824cbf.js.map",
     "453.ed554eb5.chunk.js.map": "/ricardo-giovanna/static/js/453.ed554eb5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f564d6e.css",
-    "static/js/main.2af7fa87.js"
+    "static/css/main.cf794a6f.css",
+    "static/js/main.34824cbf.js"
   ]
 }

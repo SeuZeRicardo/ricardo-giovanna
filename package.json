@@ -1,7 +1,7 @@
 {
   "name": "ricardo-giovanna",
   "version": "0.1.0",
-  "homepage": "https://seuzericardo.github.io/ricardo-giovanna/",
+  "homepage": "https://seuzericardo.github.io",
   "private": true,
   "dependencies": {
     "@gsap/react": "^2.1.2",

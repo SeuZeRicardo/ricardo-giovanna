@@ -2721,7 +2721,13 @@ const Footer = () => {
         <g id="Layer_3"></g>
         <g id="Layer_4"></g>
       </svg>
-      <p>(☞ﾟヮﾟ)☞ Feito com muito amor para esse dia especial ☜(ﾟヮﾟ☜)</p>
+      <p>
+        <span className="hide-mobile">(☞ﾟヮﾟ)☞</span> Feito com muito amor para
+        esse dia especial <span className="hide-mobile">☜(ﾟヮﾟ☜)</span>
+        <span className="hide-desktop">
+          <br /> ̿̿ ̿̿ ̿̿ ̿'̿'\̵͇̿̿\з= ( ▀ ͜͞ʖ▀) =ε/̵͇̿̿/’̿’̿ ̿ ̿̿ ̿̿ ̿̿
+        </span>
+      </p>
     </div>
   );
 };

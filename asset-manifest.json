@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/ricardo-giovanna/static/css/main.cf794a6f.css",
-    "main.js": "/ricardo-giovanna/static/js/main.34824cbf.js",
-    "static/js/453.ed554eb5.chunk.js": "/ricardo-giovanna/static/js/453.ed554eb5.chunk.js",
-    "static/media/Gotham-Medium.woff": "/ricardo-giovanna/static/media/Gotham-Medium.c36afaedabdc0fa301cd.woff",
-    "static/media/Gotham-Book.woff": "/ricardo-giovanna/static/media/Gotham-Book.dcec402280c508bc1a46.woff",
-    "static/media/Gotham-Light.woff": "/ricardo-giovanna/static/media/Gotham-Light.e8573521d275d951d59d.woff",
-    "static/media/GeometosRounded.woff": "/ricardo-giovanna/static/media/GeometosRounded.fdc33c51a73b5fa0d826.woff",
-    "static/media/Gotham-Book.woff2": "/ricardo-giovanna/static/media/Gotham-Book.5d0b393aaae195243f6c.woff2",
-    "static/media/Gotham-Medium.woff2": "/ricardo-giovanna/static/media/Gotham-Medium.bd05cdd0368c407d4574.woff2",
-    "static/media/Gotham-Light.woff2": "/ricardo-giovanna/static/media/Gotham-Light.5372cb6ac4d0998dd12f.woff2",
-    "static/media/GeometosRounded.woff2": "/ricardo-giovanna/static/media/GeometosRounded.ae7b7518086cee0669ee.woff2",
-    "index.html": "/ricardo-giovanna/index.html",
-    "main.cf794a6f.css.map": "/ricardo-giovanna/static/css/main.cf794a6f.css.map",
-    "main.34824cbf.js.map": "/ricardo-giovanna/static/js/main.34824cbf.js.map",
-    "453.ed554eb5.chunk.js.map": "/ricardo-giovanna/static/js/453.ed554eb5.chunk.js.map"
+    "main.css": "/static/css/main.8fa341c8.css",
+    "main.js": "/static/js/main.06d3c3ba.js",
+    "static/js/453.ed554eb5.chunk.js": "/static/js/453.ed554eb5.chunk.js",
+    "static/media/Gotham-Medium.woff": "/static/media/Gotham-Medium.c36afaedabdc0fa301cd.woff",
+    "static/media/Gotham-Book.woff": "/static/media/Gotham-Book.dcec402280c508bc1a46.woff",
+    "static/media/Gotham-Light.woff": "/static/media/Gotham-Light.e8573521d275d951d59d.woff",
+    "static/media/GeometosRounded.woff": "/static/media/GeometosRounded.fdc33c51a73b5fa0d826.woff",
+    "static/media/Gotham-Book.woff2": "/static/media/Gotham-Book.5d0b393aaae195243f6c.woff2",
+    "static/media/Gotham-Medium.woff2": "/static/media/Gotham-Medium.bd05cdd0368c407d4574.woff2",
+    "static/media/Gotham-Light.woff2": "/static/media/Gotham-Light.5372cb6ac4d0998dd12f.woff2",
+    "static/media/GeometosRounded.woff2": "/static/media/GeometosRounded.ae7b7518086cee0669ee.woff2",
+    "index.html": "/index.html",
+    "main.8fa341c8.css.map": "/static/css/main.8fa341c8.css.map",
+    "main.06d3c3ba.js.map": "/static/js/main.06d3c3ba.js.map",
+    "453.ed554eb5.chunk.js.map": "/static/js/453.ed554eb5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf794a6f.css",
-    "static/js/main.34824cbf.js"
+    "static/css/main.8fa341c8.css",
+    "static/js/main.06d3c3ba.js"
   ]
 }

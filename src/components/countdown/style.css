@@ -64,21 +64,3 @@
 .countdown {
   color: var(--countdown-color, #111);
 }
-
-.scrolling-text {
-  overflow: hidden;
-  width: 100%;
-  display: flex;
-  align-items: center;
-}
-.scrolling-text .rail {
-  display: flex;
-}
-
-.scrolling-text .rail h4 {
-  white-space: nowrap;
-  font-size: 2rem;
-  letter-spacing: ls(120);
-  margin: 0 30px 0 0;
-  color: var(--text-color, #454545);
-}

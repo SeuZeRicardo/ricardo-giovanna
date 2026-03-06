@@ -17,10 +17,10 @@ const Cerimony = () => {
         src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1908.3565414418817!2d-49.269047461205346!3d-16.939439430129905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTbCsDU2JzIyLjAiUyA0OcKwMTYnMDMuOSJX!5e0!3m2!1spt-BR!2sbr!4v1770586774449!5m2!1spt-BR!2sbr"
         width="600"
         height="450"
-        allowfullscreen=""
+        allowFullScreen=""
         style={{ width: "100%", border: "none" }}
         loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
+        referrerPolicy="no-referrer-when-downgrade"
       ></iframe>
 
       <p>

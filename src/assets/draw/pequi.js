@@ -5,7 +5,7 @@ const Pequi = (props) => (
     style={{
       enableBackground: "new 0 0 340.16 340.16",
     }}
-    viewBox="0 0 340.16 340.16"
+    viewBox="108.16 123.98 123.85 92.18"
     {...props}
   >
     <style>

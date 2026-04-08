@@ -5,7 +5,7 @@ const Pan = (props) => (
     style={{
       enableBackground: "new 0 0 340.16 340.16",
     }}
-    viewBox="0 0 340.16 340.16"
+    viewBox="68.5 117.28 203.1 105.58"
     {...props}
   >
     <style>

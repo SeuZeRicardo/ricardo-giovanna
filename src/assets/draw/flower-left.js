@@ -5,7 +5,7 @@ const FlowerLeft = (props) => (
     style={{
       enableBackground: "new 0 0 340.16 340.16",
     }}
-    viewBox="0 0 340.16 340.16"
+    viewBox="76.34 74.11 187.45 191.99"
     {...props}
   >
     <style>

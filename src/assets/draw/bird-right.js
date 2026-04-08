@@ -5,7 +5,7 @@ const BirdRight = (props) => (
     style={{
       enableBackground: "new 0 0 340.16 340.16",
     }}
-    viewBox="0 0 340.16 340.16"
+    viewBox="94.43 86.15 151.26 167.86"
     {...props}
   >
     <style>

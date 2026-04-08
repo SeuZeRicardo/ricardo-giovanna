@@ -53,8 +53,8 @@ export default function App() {
 
       matchMedia.add("(min-width: 980px)", () => {
         containers.forEach((container, idx) => {
-          gsap.set(leftSvgs[idx], { x: -32 });
-          gsap.set(rightSvgs[idx], { x: 32 });
+          gsap.set(leftSvgs[idx], { x: 32 });
+          gsap.set(rightSvgs[idx], { x: -32 });
 
           gsap.timeline({
             paused: true,
@@ -234,20 +234,20 @@ export default function App() {
             <Footer />
           </div>
           <div className="icons--side">
-            <Pan className="left anchor" />
-            <Pequi className="right anchor" />
+            <Pan className="left anchor" width="186px" />
+            <Pequi className="right anchor" height="96px" />
           </div>
           <div className="icons--side">
-            <FlowerLeft className="left anchor" />
-            <FlowerRight className="right anchor" />
+            <FlowerLeft className="left anchor" width="186px" />
+            <FlowerRight className="right anchor" width="186px" />
           </div>
           <div className="icons--side">
-            <KitchenLeft className="left anchor" />
-            <KitchenRight className="right anchor" />
+            <KitchenLeft className="left anchor" height="226px" />
+            <KitchenRight className="right anchor" width="186px" />
           </div>
           <div className="icons--side">
-            <BirdLeft className="left anchor" />
-            <BirdRight className="right anchor" />
+            <BirdLeft className="left anchor" width="186px" />
+            <BirdRight className="right anchor" width="186px" />
           </div>
         </>
       )}

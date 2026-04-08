@@ -5,7 +5,7 @@ const KitchenLeft = (props) => (
     style={{
       enableBackground: "new 0 0 340.16 340.16",
     }}
-    viewBox="0 0 340.16 340.16"
+    viewBox="109.82 35.27 120.6 269.62"
     {...props}
   >
     <style>{".st11{fill:#04122d}.st23{fill:#f9d7d7}"}</style>

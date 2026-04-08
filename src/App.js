@@ -110,6 +110,9 @@ export default function App() {
             toggleActions: "play reverse play reverse", //onEnter, onLeave, onEnterBack, onLeaveBack
             onEnter: () => {
               // flowers
+
+              if (!leftFlower[idx] || !rightFlower[idx]) return;
+
               gsap.to([leftFlower[idx], rightFlower[idx]], {
                 autoAlpha: 1,
                 y: 0,
@@ -134,6 +137,7 @@ export default function App() {
               }
             },
             onLeave: () => {
+              if (!leftFlower[idx] || !rightFlower[idx]) return;
               gsap.to([leftFlower[idx], rightFlower[idx]], {
                 autoAlpha: 0,
                 y: -20,
@@ -178,6 +182,7 @@ export default function App() {
               }
             },
             onLeaveBack: () => {
+              if (!leftFlower[idx] || !rightFlower[idx]) return;
               gsap.to([leftFlower[idx], rightFlower[idx]], {
                 autoAlpha: 0,
                 y: 20,

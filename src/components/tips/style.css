@@ -5,3 +5,65 @@
   justify-content: center;
   gap: 4rem;
 }
+
+.tips-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.tips-card {
+  background: var(--color-background);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+  box-shadow: 0 18px 40px rgba(10, 22, 43, 0.08);
+  padding: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.tips-action {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.tips-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 24px 48px rgba(10, 22, 43, 0.12);
+}
+
+.tips-card h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #1f2937;
+}
+
+.tips-card p {
+  margin: 0;
+  line-height: 1.6;
+  color: #4b5563;
+}
+
+.tips-card a {
+  display: inline-block;
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+
+.tips-card a + a {
+  margin-left: 1rem;
+}
+
+.tips-card a:hover {
+  text-decoration: underline;
+}

@@ -5,7 +5,7 @@ import "./style.css";
 const Cerimony = () => {
   return (
     <div className="cerimony container">
-      <Title text={"A Cerimônia"} />
+      <Title text={"A Cerimônia"} leftDrawId="pan" rightDrawId="pequi" />
       <p>
         A cerimônia será no Dia 06 de Setembro de 2026, às 16h na Fazenda
         Primavera - RODOVIA BR 153, KM 527 ZONA RURAL, Hidrolândia - GO,

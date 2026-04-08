@@ -40,8 +40,12 @@ export default function App() {
       let svgs = gsap.utils.toArray(".icons--side");
       let leftSvgs = gsap.utils.toArray(".icons--side .left");
       let rightSvgs = gsap.utils.toArray(".icons--side .right");
-      let leftFlower = gsap.utils.toArray(".animation-section #left-flower");
-      let rightFlower = gsap.utils.toArray(".animation-section #right-flower");
+      let leftTitleDraw = gsap.utils.toArray(
+        ".animation-section #left-title-draw",
+      );
+      let rightTitleDraw = gsap.utils.toArray(
+        ".animation-section #right-title-draw",
+      );
       let titleSection = gsap.utils.toArray(".animation-section h2");
 
       // split text for section titles
@@ -49,7 +53,9 @@ export default function App() {
         (el) => new SplitText(el, { type: "words,chars" }),
       );
 
-      gsap.set([svgs, leftFlower, rightFlower, titleSection], { autoAlpha: 0 });
+      gsap.set([svgs, leftTitleDraw, rightTitleDraw, titleSection], {
+        autoAlpha: 0,
+      });
 
       matchMedia.add("(min-width: 980px)", () => {
         containers.forEach((container, idx) => {
@@ -111,9 +117,9 @@ export default function App() {
             onEnter: () => {
               // flowers
 
-              if (!leftFlower[idx] || !rightFlower[idx]) return;
+              if (!leftTitleDraw[idx] || !rightTitleDraw[idx]) return;
 
-              gsap.to([leftFlower[idx], rightFlower[idx]], {
+              gsap.to([leftTitleDraw[idx], rightTitleDraw[idx]], {
                 autoAlpha: 1,
                 y: 0,
                 duration: 0.6,
@@ -137,8 +143,8 @@ export default function App() {
               }
             },
             onLeave: () => {
-              if (!leftFlower[idx] || !rightFlower[idx]) return;
-              gsap.to([leftFlower[idx], rightFlower[idx]], {
+              if (!leftTitleDraw[idx] || !rightTitleDraw[idx]) return;
+              gsap.to([leftTitleDraw[idx], rightTitleDraw[idx]], {
                 autoAlpha: 0,
                 y: -20,
                 duration: 0.6,
@@ -160,7 +166,7 @@ export default function App() {
               }
             },
             onEnterBack: () => {
-              gsap.to([leftFlower[idx], rightFlower[idx]], {
+              gsap.to([leftTitleDraw[idx], rightTitleDraw[idx]], {
                 autoAlpha: 1,
                 y: 0,
                 duration: 0.6,
@@ -182,8 +188,8 @@ export default function App() {
               }
             },
             onLeaveBack: () => {
-              if (!leftFlower[idx] || !rightFlower[idx]) return;
-              gsap.to([leftFlower[idx], rightFlower[idx]], {
+              if (!leftTitleDraw[idx] || !rightTitleDraw[idx]) return;
+              gsap.to([leftTitleDraw[idx], rightTitleDraw[idx]], {
                 autoAlpha: 0,
                 y: 20,
                 duration: 0.6,

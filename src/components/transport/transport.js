@@ -9,7 +9,11 @@ const Transport = () => {
 
   return (
     <div className="transport container">
-      <Title text={"Transporte"} />
+      <Title
+        text={"Transporte"}
+        leftDrawId="flower-left"
+        rightDrawId="flower-right"
+      />
       <p>
         A gente sempre sonhou em conhecer o Japão juntos, desde que nos
         conhecemos, e por isso escolhemos esse destino pra nossa lua de mel.

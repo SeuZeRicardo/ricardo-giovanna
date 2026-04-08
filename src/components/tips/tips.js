@@ -9,7 +9,11 @@ const Tips = () => {
 
   return (
     <div className="tips container">
-      <Title text={"Dicas de Hoteis"} />
+      <Title
+        text={"Dicas de Hoteis"}
+        leftDrawId="kitchen-left"
+        rightDrawId="kitchen-right"
+      />
       <p>
         Como teremos o transporte para a cerimonia, sugerimos que os convidados
         reservem os hoteis mais próximo do local do local da Van, para facilitar

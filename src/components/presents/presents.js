@@ -17,7 +17,11 @@ const Presents = () => {
 
   return (
     <div className="presents container">
-      <Title text={"Lista de Presentes"} />
+      <Title
+        text={"Lista de Presentes"}
+        leftDrawId="bird-left"
+        rightDrawId="bird-right"
+      />
       <p>
         A gente sempre sonhou em conhecer o Japão juntos, desde que nos
         conhecemos, e por isso escolhemos esse destino pra nossa lua de mel.

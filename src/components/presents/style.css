@@ -5,4 +5,21 @@
   justify-content: center;
   align-items: baseline;
   gap: 3.5rem;
+
+  @media screen and (max-width: 768px) {
+    gap: 0;
+  }
+}
+
+.presents-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+@media screen and (max-width: 768px) {
+  .presents-wrapper {
+    grid-template-columns: 1fr;
+  }
 }

@@ -57,10 +57,10 @@ export default function App() {
         autoAlpha: 0,
       });
 
-      matchMedia.add("(min-width: 980px)", () => {
+      matchMedia.add("(min-width: 1080px)", () => {
         containers.forEach((container, idx) => {
-          gsap.set(leftSvgs[idx], { x: 32 });
-          gsap.set(rightSvgs[idx], { x: -32 });
+          gsap.set(leftSvgs[idx], { x: 24 });
+          gsap.set(rightSvgs[idx], { x: -24 });
 
           gsap.timeline({
             paused: true,

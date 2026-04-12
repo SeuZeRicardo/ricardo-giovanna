@@ -7,9 +7,15 @@ const Cerimony = () => {
     <div className="cerimony container">
       <Title text={"A Cerimônia"} leftDrawId="pan" rightDrawId="pequi" />
       <p>
-        A cerimônia será no Dia 06 de Setembro de 2026, às 16h na Fazenda
-        Primavera - RODOVIA BR 153, KM 527 ZONA RURAL, Hidrolândia - GO,
-        75340-000
+        Estamos muito felizes em ter você com a gente nesse dia.
+        <br />
+        Pra nós, esse momento marca a união das nossas famílias e o começo da
+        nossa, e ter nossos amigos e pessoas amadas ao nosso lado, celebrando
+        esse rito de passagem com a gente, é uma alegria enorme.
+      </p>
+      <p>
+        A cerimônia acontece no dia 06 de setembro de 2026, às 16h, na Fazenda
+        Primavera e a festa será no mesmo local, logo após a cerimônia.
       </p>
 
       <iframe
@@ -24,12 +30,8 @@ const Cerimony = () => {
       ></iframe>
 
       <p>
-        Vamos disponibilizar transporte para os convidados, saindo a partir das
-        14 horas do Hotel Flamboyant, para mais informações, a Ammanda irá
-        entrar em contato com vocês. Para os convidados que preferirem ir por
-        conta própria, haverá um estacionamento disponível no local (mas
-        queremos que vocês bebam e se divirtam, então o transporte
-        disponibilizado é a melhor opção).
+        Endereço:{" "}
+        <b>Rodovia BR 153, KM 527, Zona Rural, Hidrolândia - GO, 75340-000.</b>
       </p>
     </div>
   );

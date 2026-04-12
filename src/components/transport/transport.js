@@ -1,12 +1,6 @@
 import { Title } from "../title";
-import "./style.css";
 
 const Transport = () => {
-  const handleButtonClick = () => {
-    window.open("https://noivos.casar.com/ricardo-e-giovanna", "_blank");
-    return;
-  };
-
   return (
     <div className="transport container">
       <Title
@@ -15,21 +9,22 @@ const Transport = () => {
         rightDrawId="flower-right"
       />
       <p>
-        A gente sempre sonhou em conhecer o Japão juntos, desde que nos
-        conhecemos, e por isso escolhemos esse destino pra nossa lua de mel.
-        Vamos ficar super felizes e gratos se vocês quiserem e puderem ajudar a
-        gente a fazer essa viagem
+        A Fazenda Primavera fica a aproximadamente 30 minutos de carro de
+        Hidrolândia.
       </p>
 
       <p>
-        Vocês podem contribuir com qualquer valor via PIX ou acessando a
-        plataforma casar
+        Vamos disponibilizar transfers de ida e volta para nossos convidados, a
+        partir de um ponto de encontro. Os detalhes, como horários e endereço,
+        serão informados pela nossa cerimonial em uma data mais próxima da
+        cerimônia.
       </p>
-
-      <div className="gift-list">
-        <p>NUMERO DO PIX: XXXXXXXXXXXXX</p>
-        <button onClick={handleButtonClick}>Casar.com</button>
-      </div>
+      <p>
+        Para quem preferir ir por conta própria, haverá estacionamento no local.
+        Para os convidados que pretendem consumir bebida alcoólica, recomendamos
+        o uso do transporte disponibilizado ou que se organizem com um motorista
+        da rodada.
+      </p>
     </div>
   );
 };

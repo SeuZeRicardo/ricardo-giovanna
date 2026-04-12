@@ -10,16 +10,32 @@ const Tips = () => {
   return (
     <div className="tips container">
       <Title
-        text={"Dicas de Hoteis"}
+        text={"Dicas e Informações"}
         leftDrawId="kitchen-left"
         rightDrawId="kitchen-right"
       />
+      <h3>Traje</h3>
       <p>
-        Como teremos o transporte para a cerimonia, sugerimos que os convidados
-        reservem os hoteis mais próximo do local do local da Van, para facilitar
-        o deslocamento. E caso não queiram reservar o quarto com o desconto,
-        sugerimos que busquem outras opções de estadia nos bairros{" "}
-        <b>Jardim Goiás</b> e <b>Alto da Glória</b>.
+        Sugerimos <b>traje esporte fino</b>. O evento será em área gramada,
+        então recomendamos o uso de sapatos baixos ou saltos mais largos, para
+        maior conforto ao longo da cerimônia e da festa.
+      </p>
+      <h3>Hospedagem</h3>
+      <p>
+        Aos nossos amigos e familiares que virão de outras cidades e estados,
+        recomendamos a hospedagem em um dos hotéis abaixo, onde conseguimos
+        negociar um desconto na estadia.
+        <br />
+        Para quem preferir outras opções, sugerimos buscar hospedagem na região
+        dos bairros <b>Jardim Goiás</b> e <b>Alto da Glória</b>, pela
+        proximidade com o ponto de encontro do transfer de ida e volta para a
+        cerimônia.
+      </p>
+      <p>
+        <i>
+          Não recomendamos hospedagem em Hidrolândia, já que o acesso ao evento
+          será mais fácil a partir de Goiânia.
+        </i>
       </p>
       <div className="tips-wrapper">
         <div className="tips-card">
@@ -28,13 +44,8 @@ const Tips = () => {
             Av. Dep. Jamel Cecílio, 2550 - Jardim Goiás, Goiânia - GO, 74810-100
           </p>
           <p>
-            Temos uma oferta especial para os nossos convidados, com o cupom de
-            desconto que conseguimos, vocês podem reservar o quarto com um preço
-            especial nas diárias dos dias 04/09 a 07/09, com café da manhã
-            incluso e outras mordomias.
-          </p>
-          <p>
-            Código de reserva: <b>GIOVANNAERICARDO</b>
+            use o codigo abaixo para ter um desconto
+            <br /> <b>GIOVANNAERICARDO</b>
           </p>
           <div className="tips-action">
             <button
@@ -56,13 +67,9 @@ const Tips = () => {
             Av. Dep. Jamel Cecílio, 3549 - Jardim Goiás, Goiânia - GO, 74810-100
           </p>
           <p>
-            Temos uma oferta especial para os nossos convidados, com o cupom de
-            desconto que conseguimos, vocês podem reservar o quarto com 20% de
-            desconto nas diárias dos dias 04/09 a 07/09, com café da manhã
-            incluso e outras mordomias.
-          </p>
-          <p>
-            Código de reserva: <b>XXXXXXXXXXXXXXXX</b>
+            use o codigo abaixo para ter um desconto
+            <br />
+            <b>GIOVANNAERICARDO</b>
           </p>
 
           <div className="tips-action">
@@ -77,7 +84,7 @@ const Tips = () => {
             <button
               onClick={() =>
                 handleButtonClick(
-                  "https://www.letsatlantica.com.br/hotel/comfort-suites-flamboyant",
+                  "https://atlantica.letsbook.com.br/reserva/busca?=1&promocode=GIOVANNAERICARDO",
                 )
               }
             >

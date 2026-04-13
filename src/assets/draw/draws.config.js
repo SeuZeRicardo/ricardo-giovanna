@@ -7,6 +7,9 @@ import {
   KitchenRight,
   Pan,
   Pequi,
+  Drink,
+  SPFlag,
+  FlowerGreen,
 } from "./index";
 
 export const draws = [
@@ -18,6 +21,9 @@ export const draws = [
   { id: "kitchen-right", component: KitchenRight },
   { id: "pan", component: Pan },
   { id: "pequi", component: Pequi },
+  { id: "drink", component: Drink },
+  { id: "sp-flag", component: SPFlag },
+  { id: "flower-green", component: FlowerGreen },
 ];
 
 export const getDrawById = (id) => {

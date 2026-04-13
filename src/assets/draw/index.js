@@ -6,3 +6,6 @@ export * from "./kitchen-left";
 export * from "./kitchen-right";
 export * from "./pan";
 export * from "./pequi";
+export * from "./drink";
+export * from "./sp-flag";
+export * from "./flower-green";

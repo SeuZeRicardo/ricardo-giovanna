@@ -5,6 +5,10 @@
   margin: 2rem 0;
 }
 
+.tips-wrapper .tips-card h3 {
+  min-height: calc(2.2 * 1.5rem);
+}
+
 .tips-card {
   background: var(--color-background);
   border: 1px solid rgba(0, 0, 0, 0.08);

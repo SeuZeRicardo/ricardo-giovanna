@@ -5,12 +5,12 @@ const Transport = () => {
     <div className="transport container">
       <Title
         text={"Transporte"}
-        leftDrawId="flower-left"
+        leftDrawId="flower-green"
         rightDrawId="flower-right"
       />
       <p>
         A Fazenda Primavera fica a aproximadamente 30 minutos de carro de
-        Hidrolândia.
+        Goiânia.
       </p>
 
       <p>

@@ -11,7 +11,7 @@ const Tips = () => {
     <div className="tips container">
       <Title
         text={"Dicas e Informações"}
-        leftDrawId="kitchen-left"
+        leftDrawId="drink"
         rightDrawId="kitchen-right"
       />
       <h3>Traje</h3>
@@ -39,7 +39,10 @@ const Tips = () => {
       </p>
       <div className="tips-wrapper">
         <div className="tips-card">
-          <h3>K Hotel</h3>
+          <h3>
+            K Hotel
+            <br />
+          </h3>
           <p>
             Av. Dep. Jamel Cecílio, 2550 - Jardim Goiás, Goiânia - GO, 74810-100
           </p>

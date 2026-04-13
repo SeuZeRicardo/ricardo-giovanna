@@ -13,11 +13,11 @@ import {
 import {
   BirdLeft,
   BirdRight,
-  FlowerLeft,
+  FlowerGreen,
   FlowerRight,
-  KitchenLeft,
+  Drink,
   KitchenRight,
-  Pan,
+  SPFlag,
   Pequi,
 } from "./assets/draw";
 import gsap from "gsap";
@@ -240,15 +240,15 @@ export default function App() {
             <Footer />
           </div>
           <div className="icons--side">
-            <Pan className="left anchor" width="186px" />
+            <SPFlag className="left anchor" width="186px" />
             <Pequi className="right anchor" height="96px" />
           </div>
           <div className="icons--side">
-            <FlowerLeft className="left anchor" width="186px" />
+            <FlowerGreen className="left anchor" width="186px" />
             <FlowerRight className="right anchor" width="186px" />
           </div>
           <div className="icons--side">
-            <KitchenLeft className="left anchor" height="226px" />
+            <Drink className="left anchor" height="226px" />
             <KitchenRight className="right anchor" width="186px" />
           </div>
           <div className="icons--side">

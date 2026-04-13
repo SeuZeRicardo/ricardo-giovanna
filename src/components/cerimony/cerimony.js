@@ -5,7 +5,7 @@ import "./style.css";
 const Cerimony = () => {
   return (
     <div className="cerimony container">
-      <Title text={"A Cerimônia"} leftDrawId="pan" rightDrawId="pequi" />
+      <Title text={"A Cerimônia"} leftDrawId="sp-flag" rightDrawId="pequi" />
       <p>
         Estamos muito felizes em ter você com a gente nesse dia.
         <br />

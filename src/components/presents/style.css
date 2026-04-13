@@ -6,7 +6,7 @@
   align-items: baseline;
   gap: 3.5rem;
 
-  @media screen and (max-width: 768px) {
+  @media (max-width: 768px) {
     gap: 0;
   }
 }
@@ -18,7 +18,7 @@
   margin: 2rem 0;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .presents-wrapper {
     grid-template-columns: 1fr;
   }

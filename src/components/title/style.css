@@ -10,8 +10,11 @@
 #left-title-draw {
   max-width: 60px;
   margin: 0.5rem;
+}
 
-  (max-width: 1080px) {
+@media (max-width: 1080px) {
+  #right-title-draw,
+  #left-title-draw {
     max-height: 76px;
   }
 }

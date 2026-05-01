@@ -26,7 +26,6 @@
   --lh-normal: 1.5; /* Body */
   --lh-loose: 1.8; /* Long-form reading */
 
-  --text-color: #454545;
   --container-max-width: 1080px;
   --container-padding-min: 1rem;
   --container-padding-preferred: 2.5vw;
@@ -34,6 +33,10 @@
   --background-color: #f5f2ed;
 
   --svg-side-width: 240px;
+
+  --text-color: #454545;
+  --text-link-color: #3c3c3c;
+  --text-link-hover-color: #a2a2a2;
 }
 
 *,

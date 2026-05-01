@@ -1,3 +1,5 @@
+import ModalTips from "../ModalTips";
+import ModalExample from "../ModalTips";
 import { Title } from "../title";
 import "./style.css";
 
@@ -96,6 +98,12 @@ const Tips = () => {
           </div>
         </div>
       </div>
+      <h3>Lazer</h3>
+      <p>
+        E também queremos aproveitar para sugerir alguns bares e restaurantes e
+        também salão de beleza para aproveitar a cidade durante a estadia.
+      </p>
+      <ModalTips />
     </div>
   );
 };

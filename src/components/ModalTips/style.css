@@ -1,0 +1,33 @@
+.modal-example-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 40px 20px;
+}
+
+.modal-trigger-card {
+  max-width: 350px;
+}
+
+.modal-trigger-card h3 {
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+.modal-trigger-card p {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+  .modal-example-container {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .modal-trigger-card {
+    width: 100%;
+  }
+}

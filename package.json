@@ -14,7 +14,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && echo 'giovannaericardo.com.br' > dist/CNAME",
     "deploy": "gh-pages -d dist"
   },
   "devDependencies": {

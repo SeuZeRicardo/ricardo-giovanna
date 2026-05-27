@@ -9,7 +9,7 @@ import "./style.css";
 gsap.registerPlugin(useGSAP);
 
 const Presents = () => {
-  const pixKey = "0a49dae0-e4c6-4c3c-915e-aafcd4708962";
+  const pixKey = "054f56b4-93d9-4e5d-8e81-9fff685e9561";
   const [alertData, setAlertData] = useState(null);
 
   const handleButtonClick = () => {

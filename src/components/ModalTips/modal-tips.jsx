@@ -12,7 +12,7 @@ const ModalTips = () => {
     <div className="modal-example-container">
       <div className="tips-card modal-trigger-card" ref={firstCardRef}>
         <h3>Bares e Restaurantes</h3>
-        <p>Vamos casar na Igreja, mas uma cerveja goiana é sempre bem vinda!</p>
+        <p>Não dá pra visitar Goiânia sem provar a cerveja mais gelada do Brasil</p>
         <div className="tips-action">
           <button onClick={() => setIsFirstModalOpen(true)}>Bora beber</button>
         </div>
@@ -21,11 +21,10 @@ const ModalTips = () => {
       <div className="tips-card modal-trigger-card" ref={secondCardRef}>
         <h3>Salões de Beleza</h3>
         <p>
-          Não vai ser apenas o noivo e a noiva que vão estar lindos, mas também
-          os convidados!
+          Dicas pra quem quer uma produção mais elaborada
         </p>
         <div className="tips-action">
-          <button onClick={() => setIsSecondModalOpen(true)}>Veja mais</button>
+          <button onClick={() => setIsSecondModalOpen(true)}>Dicas</button>
         </div>
       </div>
 
@@ -61,7 +60,6 @@ const ModalTips = () => {
           <li>Alpha Hair Alphaville</li>
           <li>e.ttros</li>
           <li>@marcelaelois</li>
-          <li>@camilaraujomakeup</li>
           <li>@azulservulo [Apenas cortes de cabelo]</li>
         </ul>
       </Modal>

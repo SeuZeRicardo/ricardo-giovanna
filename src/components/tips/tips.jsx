@@ -100,8 +100,7 @@ const Tips = () => {
       </div>
       <h3>Lazer</h3>
       <p>
-        E também queremos aproveitar para sugerir alguns bares e restaurantes e
-        também salão de beleza para aproveitar a cidade durante a estadia.
+        Deixamos aqui algumas recomendações de bares e restaurantes e salões de beleza para que você aproveitem a cidade durante a estadia.
       </p>
       <ModalTips />
     </div>

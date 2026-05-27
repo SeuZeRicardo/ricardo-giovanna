@@ -36,9 +36,18 @@ const ModalTips = () => {
         triggerRef={firstCardRef}
       >
         <ul>
-          <li>Piquiras</li>
-          <li>Bahrem</li>
-          <li>Celsin</li>
+          <li>Empório Piquiras - Flamboyant</li>
+          <li>Celsin Bar e Restaurante</li>
+          <li>Carne de Sol 1008</li>
+          <li>Bar Viracopos</li>
+          <li>Shiva Alt Bar</li>
+          <li>Fubanga Bar</li>
+          <li>Restaurante Popular</li>
+          <li>Sanduicheria Smiley</li>
+          <li>Pimentinhas Sanduicheria</li>
+          <li>Pamonha 85</li>
+          <li>Subverso Coffee</li>
+          <li>Café S/A</li>
         </ul>
       </Modal>
       <Modal
@@ -48,33 +57,12 @@ const ModalTips = () => {
         triggerRef={secondCardRef}
       >
         <ul>
-          <li>
-            <a
-              href="https://example.com/salao-a"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Salão A
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://example.com/salao-b"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Salão B
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://example.com/salao-c"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Salão C
-            </a>
-          </li>
+          <li>Lillê Beauty & Hair SPA Studio</li>
+          <li>Alpha Hair Alphaville</li>
+          <li>e.ttros</li>
+          <li>@marcelaelois</li>
+          <li>@camilaraujomakeup</li>
+          <li>@azulservulo [Apenas cortes de cabelo]</li>
         </ul>
       </Modal>
     </div>
